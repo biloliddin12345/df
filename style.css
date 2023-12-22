@@ -107,3 +107,49 @@ header{
     height: 3px;
     background-color: white;
 }
+*{
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    background-color:black;
+    color: white;
+    min-height: 700px;
+}
+main ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    padding-top: 30px;
+}
+main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+}
+.cards1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 50%;
+    margin: auto;
+}
+.mehr{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: grey;
+    color: black;
+    margin: 10%;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gold;
+}
